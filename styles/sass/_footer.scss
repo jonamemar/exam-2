@@ -1,0 +1,42 @@
+@import "./variables";
+footer#footer {
+    .container {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .own {
+            // width: ;
+            background-color: $blue;
+            border-radius: 30px;
+            height: 160px;
+            padding: 2rem;
+            justify-content: center;
+            display: flex;
+            h2 {
+                color: $white;
+            }
+            .email {
+                width: 600px;
+                background-color: $white;
+                border-radius: 50px;
+                height: 60px;
+                justify-content: flex-end;
+            }
+        }
+        .our {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $blue;
+            .icons {
+                display: flex;
+                gap: 1rem;
+                padding: 1rem;
+            }
+        }
+        .footers {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
